@@ -19,6 +19,8 @@ interface Costume {
 interface CostumeCardProps {
   costume: Costume;
 }
+/* hqlq hqlq hqlq */
+/* dhdhdhdhdhdh */ 
 
 export default function CostumeCard({ costume }: CostumeCardProps) {
   const imageUrl = costume.images[0] || 'https://via.placeholder.com/400x500/1a1a1a/ffffff?text=Costume';
